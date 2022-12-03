@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: user-service-app
-        image: naveed0004/user-service:latest
+        image: naveed0004/user-service:2
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 9002
